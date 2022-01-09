@@ -3,9 +3,9 @@ import ContactListItem from './ContactListItem/ContactListItem';
 import * as api from '../../services/api';
 import './ContactList.css';
 
-const fetchContacts = async () => {
-  const contacts = await api.getData(api.API_ENDPOINT);
-};
+// const fetchContacts = async () => {
+//   const contacts = await api.getData(api.API_ENDPOINT);
+// };
 
 function ContactList({ filterContacts, handleDelete }) {
   return (
