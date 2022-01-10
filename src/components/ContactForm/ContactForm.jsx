@@ -17,7 +17,6 @@ const ContactForm = ({ addNewContact }) => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    dispatch(addContact({ name, number, id: nanoid(10) }));
     addNewContact({ name, number, id: nanoid(10) });
     reset();
   };
